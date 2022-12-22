@@ -1,0 +1,1521 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* section_part1 */
+.part1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    box-shadow: 2px 0px 1px gainsboro;
+}
+
+.div_left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 55px;
+    color: gainsboro;
+}
+
+.div_left .fa-solid {
+    color: rgb(180, 180, 180);
+}
+
+.div_left input {
+    border: none;
+    padding: 6px;
+    outline: none;
+    color: rgb(190, 190, 190);
+
+}
+
+/* div_meddile */
+.div_meddile {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    border-radius: 35px 100px;
+    font-size: 20px;
+}
+
+.div_meddile h1 {
+    font-size: 15px;
+}
+
+/*  div_right */
+.div_right {
+    font-size: 12px;
+    padding: 90px;
+
+}
+
+.div_right a {
+    color: rgb(190, 190, 190);
+    padding: 6px;
+}
+
+.div_right a:hover {
+    color: black;
+    font-size: 13px;
+}
+
+/* ===================
+========= */
+
+/* nav_bar */
+nav {
+    border: none;
+    color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+nav div {
+    padding: 10px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav div a:hover {
+    color: #9400D3;
+}
+
+nav .home a {
+    color: #9400D3;
+}
+
+/* section part2 */
+
+.part2 {
+    background-image: url(hero_1.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.part2 div {
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 200px;
+}
+
+/* text sec part2 */
+.part2 div h1 {
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part2 div p {
+    margin-right: 165px;
+    color: rgb(70, 70, 70);
+}
+
+.part2 div a {
+    position: absolute;
+    background-color: #8802c2;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part2 div a:hover {
+    transform: scale(1.05, 1.05);
+}
+
+/* ==================
+============== */
+.part3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 2px gainsboro;
+    height: 200px;
+    align-items: center;
+}
+
+.part3 .hm {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    margin-left: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part3 .hm ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.part3 .hm ul p {
+    font-size: 14px;
+    color: rgb(161, 160, 160);
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.part3 .hm i {
+    font-size: 35px;
+    padding: 0px 20px 10px;
+    color: #9400D3;
+}
+
+/* ==================
+=========== */
+/* sec part4 */
+.part4 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 55px;
+
+}
+
+.part4 .img {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    width: 30%;
+}
+
+.part4 .img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px 13px;
+    filter: brightness(80%);
+
+    transition: all 2s ease;
+}
+
+.part4 .img .text {
+    position: absolute;
+    flex-direction: column;
+    padding-top: 410px;
+    padding-right: 250px;
+    color: white;
+
+}
+
+.part4 .img img:hover {
+    /* z-index: -1;
+    filter: brightness(80%); */
+    transform: translate(1.05, 1.05);
+
+}
+
+.part4 .img .text p {
+    font-size: 8px;
+    font-family: 'PT Serif', serif;
+}
+
+.part4 .img .text h5 {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+/* ======================
+============== */
+.part5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgb(244, 244, 244);
+    height: 650px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.part5 .st {
+    position: absolute;
+    align-items: center;
+    top: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part5 .featur {
+    height: 68%;
+    width: 30%;
+    background-color: white;
+
+    margin: 8px;
+}
+
+.part5 .featur img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.part5 .featur h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #8802c2;
+    margin-top: 22px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part5 .featur p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(203, 203, 203);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* ===========================
+================= */
+.part6 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: white;
+    height: 550px;
+    box-shadow: 2px 0px 2px gainsboro;
+}
+
+.part6 .text {
+    position: absolute;
+    align-items: center;
+    left: 590px;
+    top: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part6 .sale_text {
+    top: 200px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part6 .sale_text h1 {
+    position: absolute;
+    color: #8802c2;
+    align-items: center;
+    font-size: 25px;
+    left: 35px;
+    bottom: 200px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part6 .sale_text p {
+    font-size: 8px;
+    color: rgb(194, 194, 194);
+    font-family: 'Noto Sans', sans-serif;
+    bottom: 50px;
+}
+
+.part6 .sale_text .aa {
+    position: absolute;
+    bottom: 185px;
+    left: 40px;
+    font-size: 9px;
+    font-style: italic;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part6 .sale_text .b {
+    position: absolute;
+    align-items: center;
+    left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    top: 60px;
+}
+
+.part6 .sale_text p a {
+    text-decoration: none;
+    color: #8802c2;
+    font-size: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part6 .sale img {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 66px;
+    top: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part6 .sale_text {
+    margin-left: 60px;
+    flex-direction: column;
+    position: absolute;
+    left: 730px;
+    right: 100px;
+    bottom: 110px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.part6 .sale_text .a {
+    position: absolute;
+    top: 80px;
+    text-decoration: none;
+    background-color: #8802c2;
+    color: white;
+    align-items: flex-start;
+    margin: 90px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.part6 .sale_text .a:hover {
+    transform: scale(1.05, 1.05);
+}
+
+/* =========================
+============ */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    background-color: rgb(253, 253, 253);
+    position: relative;
+}
+
+.footer .left_list {
+    margin: 50px 30px 110px 70px;
+}
+
+.footer .left_list h3 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .left_list li {
+    margin-top: 13px;
+    color: rgb(182, 182, 182);
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .midel_list {
+    margin: 85px 20px 110px 20px;
+}
+
+.footer .midel_list li {
+    margin-top: 13px;
+    color: rgb(182, 182, 182);
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .right_list {
+    margin: 85px 20px 110px 20px;
+}
+
+.footer .right_list li {
+    margin-top: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(182, 182, 182);
+    list-style: none;
+    margin-left: 30px;
+}
+
+/* sec promo */
+.footer .promo {
+    margin: 50px 20px 110px 60px;
+}
+
+.promo li {
+    list-style: none;
+
+}
+
+.promo li a {
+    text-decoration: none;
+    color: #8802c2;
+}
+
+.promo li p {
+    font-size: 10px;
+    color: rgb(182, 182, 182);
+
+}
+
+/*  sec contact */
+.conntact {
+    margin: 50px 30px 110px 30px;
+}
+
+.conntact li {
+    list-style: none;
+    margin-top: 13px;
+    line-height: 1.7;
+
+}
+
+.conntact li i {
+    color: #9400D3;
+    padding-right: 14px;
+
+}
+
+.footer .sub {
+    position: absolute;
+    margin-top: 210px;
+    left: 910px;
+}
+
+.footer .sub input {
+    margin-top: 15px;
+    padding: 7px;
+    outline: none;
+}
+
+.footer .sub a {
+    text-decoration: none;
+    color: white;
+    background-color: #8802c2;
+    padding: 7px 12px;
+    position: absolute;
+    top: 36px;
+    left: 122px;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.footer .sub input:hover {
+    outline: none;
+}
+
+.footer .your {
+    position: absolute;
+    bottom: 30px;
+    color: rgb(214, 214, 214);
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .your a {
+    text-decoration: none;
+    color: #8802c2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* about.html */
+.about_1 {
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.about_1 h5 {
+    margin-left: 50px;
+    padding-top: 12px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.about_1 h5 span {
+    color: #8802c2;
+}
+
+/* about_2 */
+.about_2 {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 0px 2px gainsboro;
+}
+
+.about_2 .img {
+    margin-top: 70px;
+
+}
+
+.about_2 .img img {
+    width: 500px;
+    height: 380px;
+    margin-left: 70px;
+}
+
+.about_2 .img h2 {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.about_2 .img p {
+    margin-left: 70px;
+    margin-right: 110px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(182, 182, 182);
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* about_3 */
+.about_3 {
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    position: relative;
+    box-shadow: 2px 1px 2px gainsboro;
+}
+
+.about_3 .text h1 {
+    position: absolute;
+    top: 75px;
+    left: 550px;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.about_3 .team img {
+    border-radius: 50%;
+    width: 140px;
+    height: 120px;
+    margin-top: 165px;
+    margin-right: 65px;
+    margin-left: 60px;
+}
+
+.about_3 .team h3 {
+    margin-left: 78px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.about_3 .team h6 {
+    font-size: 11px;
+    color: rgb(182, 182, 182);
+    margin-left: 84px;
+    margin-top: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.about_3 .team p {
+    font-size: 13px;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 16px;
+    color: rgb(182, 182, 182);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* ======================
+============= */
+/* shop.html */
+.all {
+    position: relative;
+    height: 1140px;
+    display: flex;
+    box-shadow: 2px 0px 2px gainsboro;
+}
+
+.all .left_top {
+    width: 200px;
+    height: 140px;
+    margin-top: 50px;
+    margin-left: 90px;
+    box-shadow: 1px 1px 1px gainsboro, -1px -1px 1px gainsboro;
+}
+
+.all .left_top .text {
+    display: flex;
+    justify-content: center;
+}
+
+.all .left_top h5 {
+    margin: 20px;
+    padding-top: 2px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.all .left_top .text ul {
+    list-style: none;
+    padding: 0px 30px;
+
+}
+
+.all .left_top .text ul li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.all .left_top .text .cap li {
+    color: #8802c2;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.all .left_bottom {
+    position: absolute;
+    width: 200px;
+    height: 455px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 1px gainsboro, -1px -1px 1px gainsboro;
+}
+
+.all .left_bottom .bottom_1 {
+    position: absolute;
+    margin-left: 15px;
+
+}
+
+.all .left_bottom .bottom_1 h5 {
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.all .left_bottom .bottom_1 p {
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+}
+
+.all .left_bottom .bottom_1 input {
+    margin-top: 13px;
+    color: #8802c2;
+}
+
+.all .left_bottom .bottom_2 {
+    position: absolute;
+    margin-top: 110px;
+}
+
+.all .left_bottom .bottom_2 h5 {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.all .left_bottom .bottom_2 .input {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.all .left_bottom .bottom_3 {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+
+.all .left_bottom .bottom_3 ul {
+    margin-top: 10px;
+    margin-left: 13px;
+
+}
+
+/* sec right */
+.all .right {
+    position: absolute;
+    bottom: 1070px;
+    left: 300px;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.all .right .between {
+    margin-left: 10px;
+    margin-right: 280px;
+}
+
+.all .right .between .sel_1 {
+    position: absolute;
+    left: 700px;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 11px 8px 9px 3px;
+    background-color: rgb(216, 216, 216);
+
+}
+
+.all .right .between .sel_1:hover {
+    background-color: gray;
+    border: none;
+    transform: scale(1.1, 1.1);
+}
+
+.all .right .between .sel_2 {
+    position: absolute;
+    left: 790px;
+    text-align: center;
+    width: 100px;
+    outline: none;
+    border: none;
+    padding: 9px 1px 9px 0px;
+    background-color: rgb(216, 216, 216);
+}
+
+.all .right .between .sel_2:hover {
+    background-color: gray;
+    border: none;
+    transform: scale(1.1, 1.1);
+}
+
+/* =====================
+============== */
+.bottom_right {
+    position: absolute;
+    /* flex-direction: column; */
+    display: flex;
+
+    top: 290px;
+    right: 65px;
+}
+
+.bottom_right .shop {
+    width: 260px;
+    height: 300px;
+    box-shadow: 1px 1px 1px gainsboro, -1px -1px 1px gainsboro;
+    margin: 30px 10px;
+    background-color: white;
+}
+
+.bottom_right .shop h3 {
+    color: #8802c2;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 4px;
+}
+
+.bottom_right .shop p {
+    color: gainsboro;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+.bottom_right .shop img {
+    width: 260px;
+}
+
+.part4 h2 {
+    position: absolute;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* ====================
+============= */
+.single_1 {
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.single_1 h5 {
+    margin-left: 50px;
+    padding-top: 12px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.single_2 {
+    position: relative;
+    top: 30px;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    /* box-shadow: 2px 0px 2px gainsboro; */
+}
+
+.single_2 h3 {
+    color: #8802c2;
+    /* margin-left: 70px; */
+    margin-top: 16px;
+}
+
+.single .img {
+    margin-top: 70px;
+}
+
+.single_2 .img img {
+    width: 560px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.single_2 .img,
+text {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(182, 182, 182);
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.single_2 .input {
+    margin-top: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    /* margin-left: 67px; */
+}
+
+.single_2 a {
+    text-decoration: none;
+    background-color: #8802c2;
+    color: white;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 11px;
+    top: 522px;
+    padding: 8px 9px;
+    right: 430px;
+    border-radius: 2px;
+    opacity: 0.;
+}
+
+.single_2 a:hover {
+    opacity: 0.8;
+    transform: scale(1.1, 1.1);
+
+}
+
+.single_2 .input button {
+    background-color: white;
+    border: 1px solid #8802c2;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.single_2 .input button:hover {
+    background-color: #8802c2;
+    transform: scale(1.05, 1.05);
+}
+
+.single_2 .input input {
+    padding: 9px 9px;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+
+.single_3 {
+    background-color: rgb(227, 226, 226);
+    display: flex;
+    justify-content: center;
+    height: 560px;
+
+}
+
+.single_3 .shop {
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    margin: 150px 10px;
+}
+
+.single_3 .shop img {
+    width: 280px;
+
+}
+
+.single_3 h3 {
+    margin-top: 18px;
+    color: #8802c2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.single_3 p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: gainsboro;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.single_3 h2 {
+    position: absolute;
+    left: 550px;
+    margin-top: 70px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* ============================
+============== */
+/* cart.html */
+table {
+    width: 90%;
+    border-spacing: 0px;
+    margin-top: 65px;
+    margin-left: 60px;
+}
+
+table td {
+    width: 11%;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+table thead {
+    padding: 8px 8px;
+    text-align: center;
+}
+
+table tbody {
+    padding: 8px 8px;
+    text-align: center;
+}
+
+table tr span {
+    background-color: #8802c2;
+    color: white;
+    font-size: 15px;
+    padding: 12px 10px;
+}
+
+table td img {
+    width: 180px;
+}
+
+table td p {
+    font-size: 12px;
+    color: rgb(75, 75, 75);
+}
+
+table td input {
+    padding: 9px 9px;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+
+table td button {
+    background-color: white;
+    border: 1px solid #8802c2;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+table td button:hover {
+    background-color: #8802c2;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+}
+
+/* ==========================
+============== */
+._2 {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 1px 1px 1px gainsboro;
+}
+
+._2 .cart {
+    margin: 55px 60px;
+
+}
+
+.cart input {
+    outline: none;
+}
+
+._2 .cart .a1 {
+    background-color: #8802c2;
+    color: white;
+    text-align: center;
+    padding: 6px 45px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart .a1 :hover {
+    transform: scale(1.1, 1.1);
+}
+
+._2 .cart .coupon {
+    background-color: #8802c2;
+    color: white;
+    border-radius: 2px;
+    padding: 7px;
+    border-radius: 3px;
+    margin: 0px 14px;
+    text-decoration: none;
+}
+
+._2 .cart .cont {
+    background-color: white;
+    color: #8802c2;
+    padding: 5px 15px;
+    border-radius: 2px;
+    margin-left: 25px;
+    text-decoration: none;
+    border: 1px solid #8802c2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart .cont:hover {
+    background-color: #8802c2;
+    color: white;
+}
+
+._2 .cart h3 {
+    margin-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart h2 {
+    position: absolute;
+    left: 1047px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart p {
+    margin-top: 7px;
+    color: #ccc;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart input {
+    margin-top: 25px;
+    padding: 5px 77px 5px 9px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart .right {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 44px;
+    height: 160px;
+    box-shadow: 0, 5px 0, 5px 0, 5px #ccc;
+}
+
+._2 .cart .right ul {
+    list-style: none;
+    margin: 55px 30px;
+    line-height: 1.8;
+    margin-left: 70px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .cart .right a {
+    text-decoration: none;
+    position: absolute;
+    top: 145px;
+    right: 28px;
+    background-color: #8802c2;
+    color: white;
+    border-radius: 3px;
+    padding: 9px 22px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+._2 .right a:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* ============================
+================== */
+.sec_login {
+    height: 1080px;
+}
+
+.inp {
+    position: relative;
+}
+
+.inp input {
+    padding: 18px 900px 16px 7px;
+    margin-left: 75px;
+    margin-top: 60px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.inp a {
+    position: absolute;
+    top: 77px;
+    left: 216px;
+    color: blue;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+.inp span {
+    position: absolute;
+    top: 75px;
+    left: 280px;
+    color: #ccc;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sec_login .h1 {
+    margin-top: 30px;
+    margin-left: 75px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.form_left {
+    border: 2px solid rgb(240, 239, 239);
+    width: 500px;
+    height: 850px;
+    margin-left: 75px;
+    margin-top: 5px;
+}
+
+.sec_login .form_left form {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.sec_login .form_left .sl {
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 6px 290px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.sec_login .form_left p span {
+    color: red;
+}
+
+.sec_login .form_left .first_name {
+    margin-top: 15px;
+}
+
+.sec_login .form_left .inp_first_name {
+    margin-top: 7px;
+    padding: 6px 25px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .last_name {
+    position: absolute;
+    top: 65px;
+    left: 220px;
+    margin-top: 10px;
+}
+
+.sec_login .form_left .inp_last_name {
+    position: absolute;
+    top: 93px;
+    left: 218px;
+    margin-top: 7px;
+    padding: 6px 25px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .company {
+    margin-top: 15px;
+}
+
+.sec_login .form_left .inp_company {
+    margin-top: 8px;
+    padding: 6px 240px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .adress {
+    margin-top: 15px;
+}
+
+.sec_login .form_left .inp_adress {
+    margin-top: 8px;
+    padding: 6px 240px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .inp_adress2 {
+    margin-top: 15px;
+    padding: 6px 240px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .statecountry {
+    margin-top: 15px;
+}
+
+.sec_login .form_left .inp_statecountry {
+    margin-top: 8px;
+    padding: 6px 25px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .postazip {
+    position: absolute;
+    top: 328px;
+    left: 220px;
+    margin-top: 10px;
+}
+
+.sec_login .form_left .inp_postazip {
+    position: absolute;
+    top: 357px;
+    left: 218px;
+    margin-top: 7px;
+    padding: 6px 25px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .email {
+    margin-top: 15px;
+}
+
+.sec_login .form_left .inp_email {
+    margin-top: 8px;
+    padding: 6px 25px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .phone {
+    position: absolute;
+    top: 398px;
+    left: 220px;
+    margin-top: 10px;
+}
+
+.sec_login .form_left .inp_phone {
+    position: absolute;
+    top: 427px;
+    left: 218px;
+    margin-top: 7px;
+    padding: 6px 25px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 3px;
+}
+
+.sec_login .form_left .creat {
+    position: absolute;
+    top: 510px;
+    right: 430px;
+}
+
+.sec_login .form_left ._creat {
+    position: absolute;
+    top: 509px;
+    left: 23px;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sec_login .form_left .click {
+    position: absolute;
+    top: 550px;
+    right: 430px;
+}
+
+.sec_login .form_left ._click {
+    position: absolute;
+    top: 549px;
+    left: 23px;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sec_login .form_left .order_notes {
+    margin-top: 125px;
+}
+
+.sec_login .form_left textarea {
+    margin-top: 8px;
+}
+
+.right {
+    position: relative;
+}
+
+.right .h1 {
+    position: absolute;
+    bottom: 860px;
+    left: 545px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.right .right_top {
+    position: absolute;
+    border: 2px solid rgb(240, 239, 239);
+    width: 525px;
+    height: 150px;
+    bottom: 700px;
+    left: 620px;
+}
+
+.right .right_top p {
+    margin: 40px 40px;
+
+}
+
+.right .right_top input {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    padding: 6px 80px 6px 5px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.right .right_top a {
+    position: absolute;
+    bottom: 40px;
+    left: 290px;
+    background-color: #9400D3;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 9px 15px 9px 15px;
+    text-decoration: none;
+}
+
+.sec_login .h1_bottom {
+    position: absolute;
+    top: 570px;
+    left: 620px;
+}
+
+.sec_login .right_bottom {
+    position: absolute;
+    display: flex;
+    width: 520px;
+    height: 560px;
+    top: 606px;
+    left: 620px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.sec_login .order {
+    margin: 40px 55px;
+    display: flex;
+}
+
+.sec_login .order hr {
+    width: 410px;
+}
+
+.sec_login .order_left {
+    line-height: 2.5;
+    font-size: 13px;
+}
+
+.sec_login .order_right {
+    position: absolute;
+    line-height: 2.5;
+    left: 417px;
+    font-size: 13px;
+    padding: 6px;
+}
+
+.sec_login .a1 {
+    position: absolute;
+    right: 50px;
+    top: 280px;
+    border-radius: 3px;
+    color: #9400D3;
+    text-decoration: none;
+    padding: 8px 265px 8px 10px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.sec_login .a2 {
+    position: absolute;
+    right: 50px;
+    top: 330px;
+    border-radius: 3px;
+    color: #9400D3;
+    text-decoration: none;
+    padding: 8px 292px 8px 10px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.sec_login .a3 {
+    position: absolute;
+    right: 50px;
+    top: 380px;
+    border-radius: 3px;
+    color: #9400D3;
+    text-decoration: none;
+    padding: 8px 355px 8px 10px;
+    border: 2px solid rgb(240, 239, 239);
+}
+
+.sec_login .a4 {
+    position: absolute;
+    right: 50px;
+    top: 460px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #9400D3;
+    text-decoration: none;
+    align-items: center;
+    padding: 11px 147px 11px 155px;
+}
+
+.sec_login .a4:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.tamam {
+    text-align: center;
+    height: 680px;
+}
+
+.tamam img {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.tamam h1 {
+    font-size: 50px;
+
+    margin-left: 65px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.tamam p {
+    color: #ccc;
+    margin-top: 5px;
+    margin-left: 75px;
+}
+
+.tamam a {
+    text-decoration: none;
+    background-color: #9400D3;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 3px;
+    position: absolute;
+    top: 730px;
+    left: 588px;
+    padding: 10px 20px 10px 20px;
+}
+
+.tamam a:hover {
+    transform: scale(1.1, 1.1);
+}
